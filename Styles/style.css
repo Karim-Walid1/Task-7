@@ -1,0 +1,883 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+}
+
+.navbar .burger {
+    display: none;
+    color: #FFFFFC;
+}
+
+.head {
+    margin-right: 200px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .head svg {
+    color: #1576D6;
+    margin-left: 100px;
+}
+
+.navbar .head span {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #25292C;
+    margin-left: 4px;
+}
+
+nav {
+    margin-top: 24px;
+    margin-right: 180px;
+}
+
+.navbar nav a {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #25292C;
+    text-decoration: none;
+    margin-left: 48px;
+}
+
+.btns {
+    display: flex;
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 14px;
+}
+
+.btn1 {
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    color: #1576D6;
+    margin-right: 8px;
+    border: 1px solid #1576D6;
+    border-radius: 6px;
+    padding: 10px 18px;
+}
+
+.btn2 {
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #1576D6;
+    margin-right: 8px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+    color: #FFFFFC;
+}
+
+.big-img {
+    width: 1240px;
+    height: 500px;
+    position: relative;
+    background-image: url(../images/vacation.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: #0000004D;
+    border-radius: 10px;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    color: #FFFFFC;
+    margin-top: 190px;
+    margin-left: 295px;
+
+}
+
+.text h3 {
+    font-family: "Barlow", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.text p {
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #FFFFFC;
+    margin-top: 20px;
+}
+
+.search-box {
+    position: absolute;
+    background-color: #FFFFFC;
+    padding: 10px;
+    margin-top: 468px;
+    margin-left: 205px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+
+
+.search-box .field button {
+    padding: 11px 23px;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #25292C;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-box .field .search {
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFC;
+    background-color: #1576D6;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 50px;
+}
+
+.alert {
+    display: flex;
+    background-color: #F4C123;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 107px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 8px;
+    color: #333333;
+    align-items: center;
+
+    svg {
+        margin: 20px;
+        margin-right: 19px;
+
+    }
+
+    p a {
+        text-decoration: none;
+    }
+}
+
+.box1 {
+    margin: 50px 100px;
+}
+
+.box1 h2 {
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #25292C;
+    margin-bottom: 43px;
+}
+
+.box1 .cards {
+    display: flex;
+    column-gap: 100px;
+}
+
+.card svg {
+    color: #ffff00e0;
+    margin-left: 55px;
+    margin-bottom: 27px;
+}
+
+.card h3 {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #25292C;
+    margin-bottom: 14px;
+    margin-left: 15px;
+}
+
+.card p {
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #25292C;
+    margin-left: 15px;
+}
+
+.box2 {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+
+.box2 h2 {
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #25292C;
+    margin-bottom: 16px;
+}
+
+.description {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2%;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    column-gap: 20px;
+}
+
+.card1 img {
+    width: 295px;
+    height: 220px;
+    border-radius: 8px;
+}
+
+.card1 h3 {
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #25292C;
+}
+
+.card1 p {
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #25292C;
+    letter-spacing: 2%;
+}
+
+
+.card2 img {
+    width: 295px;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.card2 h3 {
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #25292C;
+}
+
+.card2 p {
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #25292C;
+    letter-spacing: 2%;
+}
+
+h1 {
+    font-family: "Barlow", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #25292C;
+}
+
+h6 {
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #25292C;
+}
+
+.box3 {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+
+.box3 h2 {
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #25292C;
+    margin-bottom: 16px;
+}
+
+.photos {
+    display: flex;
+    gap: 20px;
+}
+
+.content1 h3,
+.content2 h3,
+.content3 h3 {
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFC;
+    position: absolute;
+    margin-top: 158px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.content1 p,
+.content2 p,
+.content3 p {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFC;
+    position: absolute;
+    margin-top: 216px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.content1 {
+    background-image: url(../images/vacation.jpg);
+    width: 400px;
+    height: 280px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    align-items: center;
+    margin: auto;
+}
+
+.content2 {
+    background-image: url(../images/restaurant.jpg);
+    width: 400px;
+    height: 280px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    align-items: center;
+    margin: auto;
+}
+
+.content3 {
+    background-image: url(../images/mountains.jpg);
+    width: 400px;
+    height: 280px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    align-items: center;
+    margin: auto;
+}
+
+.box4 {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+
+.box4 .head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #25292C;
+}
+
+.box4 .head a {
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #25292C;
+    text-decoration: none;
+}
+
+
+.Cruises {
+    background-image: url(../images/cruises.jfif);
+    width: 300px;
+    height: 240px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+
+    h5 {
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: #FFFFFC;
+        margin: 180px 111px 30px 30px;
+    }
+}
+
+.BeachTours {
+    background-image: url(../images/Beach.jfif);
+    width: 410px;
+    height: 510px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+
+    h5 {
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: #FFFFFC;
+        margin: 450px 131px 30px 30px;
+    }
+}
+
+.CityTours {
+    background-image: url(../images/City.jfif);
+    width: 470px;
+    height: 240px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+
+    h5 {
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: #FFFFFC;
+        margin: 180px 257px 30px 30px;
+    }
+}
+
+.MuseumTour {
+    background-image: url(../images/museum.jfif);
+    width: 300px;
+    height: 240px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+
+    h5 {
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: #FFFFFC;
+        margin: 180px 70px 30px 30px;
+    }
+}
+
+.Food {
+    background-image: url(../images/food.jfif);
+    width: 190px;
+    height: 240px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+
+    h5 {
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: #FFFFFC;
+        margin: 180px 60px 30px 30px;
+    }
+}
+
+.Hiking {
+    background-image: url(../images/hiking.jfif);
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+
+    h5 {
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: #FFFFFC;
+        margin: 180px 81px 30px 30px;
+    }
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.bottom {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.box5 {
+    margin: 60px 100px;
+}
+
+.box5 h2 {
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #25292C;
+    margin-bottom: 91px;
+}
+
+.box5 .cards {
+    justify-content: center;
+    display: flex;
+    column-gap: 150px;
+}
+
+.card svg {
+    color: #ffff00e0;
+    margin-bottom: 29px;
+}
+
+.card h1 {
+    font-family: "Barlow", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #25292C;
+    margin-bottom: 14px;
+    margin-left: 40px;
+}
+
+.card h6 {
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #25292C;
+    margin-left: 40px;
+}
+
+.download {
+    width: 1240px;
+    margin-top: 60px;
+    margin: auto;
+}
+
+.box6 {
+    margin-top: 80px;
+}
+
+.box6 .header h3 {
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #25292C;
+    text-align: center;
+}
+
+.box6 .header a {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #1576D6;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    gap: 90px;
+    margin-top: 80px;
+    margin-left: 90px;
+    align-items: center;
+
+}
+
+.content .card1 {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 2%;
+    margin-top: -150px;
+    align-items: center;
+}
+
+.content .card1 svg {
+    color: #1576D6;
+    align-items: center;
+}
+
+.content .card1 span {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.content .card1 p {
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #6C757D;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+
+.card2 h4 {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 2%;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    color: #25292C;
+}
+
+.card2 h6 {
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #6C757D;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.card3 h4 {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 2%;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    color: #25292C;
+}
+
+.card3 h6 {
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #6C757D;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.card3 a {
+    text-decoration: none;
+}
+
+.card4 h4 {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 2%;
+    margin-top: -90px;
+    margin-bottom: 20px;
+    color: #25292C;
+}
+
+.card4 h6 {
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #6C757D;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.card5 h4 {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 2%;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    color: #25292C;
+}
+
+.card5 h6 {
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #6C757D;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.end {
+    display: flex;
+    margin-top: 90px;
+    gap: 6px;
+    align-items: center;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #6C757D;
+    margin-left: 1083px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 390px) {
+
+    body {
+        width: 390px;
+        height: 8950px;
+
+    }
+
+    .navbar nav {
+        display: none;
+    }
+
+    .navbar .btns {
+        display: none;
+    }
+
+
+
+    main .big-img {
+        position: relative;
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .navbar .burger,
+    .navbar .head {
+        position: absolute;
+        left: 16px;
+        top: 32px;
+    }
+
+    main .big-img .overlay {
+        border-radius: 0;
+    }
+
+    main .big-img .text {
+        margin-top: 360px;
+        margin-left: 16px;
+        text-align: start;
+    }
+
+    main .big-img .search-box {
+        max-width: 358px;
+        margin-top: 400px;
+    }
+
+
+    .alert {
+        width: 358px;
+    }
+
+
+
+    .navbar .burger {
+        display: block;
+        color: black;
+        width: 21px;
+        height: 21px;
+    }
+
+
+    .box1 .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .box2 .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .box4 .head a {
+        display: none;
+    }
+
+    .box4 .head {
+        display: block;
+        width: 100%;
+    }
+
+    .box5 .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .download {
+        margin-top: 45px;
+    }
+
+    .box6 .header h3 {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 180px;
+        gap: 180px;
+    }
+
+    .end {
+        display: none;
+    }
+
+}
